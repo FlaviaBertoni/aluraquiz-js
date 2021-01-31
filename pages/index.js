@@ -29,14 +29,14 @@ export default function Home() {
 
         {/*  Open Graph / Facebook  */}
         <meta property="og:type" content="website"/>
-        {/* <meta property="og:url" content="https://metatags.io/"/> */}
+        <meta property="og:url" content="https://aluraquiz-js.flaviabertoni.vercel.app/"/>
         <meta property="og:title" content={db.title}/>
         <meta property="og:description" content={db.description}/>
         <meta property="og:image" content={db.bg}/>
 
         {/*  Twitter  */}
         <meta property="twitter:card" content="summary_large_image"/>
-        {/* <meta property="twitter:url" content="https://metatags.io/"/> */}
+        <meta property="twitter:url" content="https://aluraquiz-js.flaviabertoni.vercel.app/"/>
         <meta property="twitter:title" content={db.title}/>
         <meta property="twitter:description" content={db.description}/>
         <meta property="twitter:image" content={db.bg}/>
